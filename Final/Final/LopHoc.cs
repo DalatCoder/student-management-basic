@@ -92,18 +92,16 @@ class LopHoc
 
     public void NhapDanhSachSinhVienMacDinh()
     {
-        DanhSachSinhVien.Add(new SinhVien(8.5, "Nguyen Trong Hieu", "1812756", new DateTime(2000, 3, 11)));
         DanhSachSinhVien.Add(new SinhVien(7.9, "Le Minh Hoang", "1912345", new DateTime(2001, 5, 22)));
         DanhSachSinhVien.Add(new SinhVien(8.3, "Tran Van Binh", "1912346", new DateTime(2000, 8, 15)));
         DanhSachSinhVien.Add(new SinhVien(6.5, "Pham Thi Lan", "1912347", new DateTime(2002, 1, 30)));
         DanhSachSinhVien.Add(new SinhVien(9.0, "Nguyen Van An", "1912348", new DateTime(1999, 12, 10)));
-        DanhSachSinhVien.Add(new SinhVien(7.2, "Do Thi Mai", "1912349", new DateTime(2001, 7, 5)));
+        DanhSachSinhVien.Add(new SinhVien(4.5, "Do Thi Lan", "1912349", new DateTime(2001, 7, 5)));
         DanhSachSinhVien.Add(new SinhVien(8.8, "Hoang Tuan Kiet", "1912350", new DateTime(2000, 4, 18)));
-        DanhSachSinhVien.Add(new SinhVien(6.9, "Bui Thanh Tam", "1912351", new DateTime(2002, 9, 25)));
+        DanhSachSinhVien.Add(new SinhVien(4.9, "Bui Thanh Tam", "1912351", new DateTime(2002, 9, 25)));
         DanhSachSinhVien.Add(new SinhVien(7.6, "Dang Van Son", "1912352", new DateTime(2001, 11, 3)));
         DanhSachSinhVien.Add(new SinhVien(9.2, "Nguyen Thi Hong", "1912353", new DateTime(2000, 6, 20)));
-        DanhSachSinhVien.Add(new SinhVien(8.1, "Le Van Dung", "1912354", new DateTime(1999, 3, 14)));
-        DanhSachSinhVien.Add(new SinhVien(7.4, "Trinh Minh Chau", "1912355", new DateTime(2002, 10, 8)));
+        DanhSachSinhVien.Add(new SinhVien(3.0, "Le Van Dung", "1912354", new DateTime(1999, 3, 14)));
     }
 
     public void HienThiDanhSachSinhVien()
