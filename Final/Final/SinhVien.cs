@@ -44,10 +44,10 @@ class SinhVien
         var builder = new StringBuilder();
 
         builder.AppendLine("Thong tin sinh vien");
-        builder.AppendLine($"- Ho Va Ten: {HoVaTen}");
+        builder.AppendLine($"- Ho va ten: {HoVaTen}");
         builder.AppendLine($"- Ma sinh vien: {MaSinhVien}");
-        builder.AppendLine($"- Ngay sinh vien: {NgaySinh.ToString("dd/MM/yyyy")}");
-        builder.AppendLine($"- Diem Trung Binh: {DiemTrungBinh}");
+        builder.AppendLine($"- Ngay sinh: {NgaySinh.ToString("dd/MM/yyyy")}");
+        builder.AppendLine($"- Diem trung binh: {DiemTrungBinh}");
 
         return builder.ToString();
     }
