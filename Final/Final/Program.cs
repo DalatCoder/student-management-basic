@@ -2,8 +2,29 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        ChayChuongTrinh();
+    }
+
+    static void ChayChuongTrinh()
+    {
+        var menu = new Menu();
+
+        while (true)
+        {
+            Console.Clear();
+            
+            menu.XuatMenu();
+            var chucNang = menu.ChonMenu();
+            
+            Console.Clear();
+            menu.XuLyChucNang(chucNang);
+
+            if (chucNang == ChucNang.ThoatChuongTrinh)
+            {
+                break;
+            }
+        }
     }
 }
